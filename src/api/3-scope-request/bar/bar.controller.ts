@@ -1,7 +1,7 @@
 import { Controller, Get } from '@nestjs/common';
 import { BarService } from './bar.service';
 
-@Controller('scope-transient/bar')
+@Controller('scope-request/bar')
 export class BarController {
   constructor(private readonly barService: BarService) {}
 

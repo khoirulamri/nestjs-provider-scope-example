@@ -1,7 +1,7 @@
 import { Controller, Get } from '@nestjs/common';
 import { FooService } from './foo.service';
 
-@Controller('scope-transient/foo')
+@Controller('scope-request/foo')
 export class FooController {
   constructor(private readonly fooService: FooService) {}
 
