@@ -10,17 +10,17 @@ pada scope request class service injectable akan dibangkitkan 1 kali per masing 
 
 ### Request 1 (terdapat sleep 5s)
 ```
-curl --request GET http://localhost:3000/scope-transient/foo/call1
+curl --request GET http://localhost:3000/scope-request/foo/call1
 ```
 
 ### request 2
 ```
-curl --request GET http://localhost:3000/scope-transient/foo/call2
+curl --request GET http://localhost:3000/scope-request/foo/call2
 ```
 
 ### request 3
 ```
-curl --request GET http://localhost:3000/scope-transient/bar
+curl --request GET http://localhost:3000/scope-request/bar
 ```
 
 Skenario:
